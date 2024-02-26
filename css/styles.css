@@ -9,6 +9,7 @@
 
 body {
   background: #000;
+  overflow-x: hidden;
 }
 ul {
   list-style: none;
@@ -281,6 +282,13 @@ section {
   font-size: 21px;
   font-weight: 700;
 }
+ /* @media (max-width: 768px) {
+
+  body {
+      overflow-x: hidden;
+  }
+}  */
+
 
 /* ------------ FOOTER ------------ */
 footer {
