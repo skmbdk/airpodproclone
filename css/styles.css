@@ -10,6 +10,7 @@
 body {
   background: #000;
   overflow-x: hidden;
+  
 }
 ul {
   list-style: none;
@@ -282,12 +283,28 @@ section {
   font-size: 21px;
   font-weight: 700;
 }
- /* @media (max-width: 768px) {
+ @media (max-width: 768px) {
 
   body {
       overflow-x: hidden;
   }
-}  */
+} 
+
+
+
+html::-webkit-scrollbar {
+  width: 1px; 
+}
+
+html::-webkit-scrollbar-track {
+  background:  linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(0, 0, 8) 100%);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0px 0px 0px 100vh black;
+}
+
 
 
 /* ------------ FOOTER ------------ */
